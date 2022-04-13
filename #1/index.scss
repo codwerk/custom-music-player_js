@@ -108,6 +108,7 @@ body {
   &__progress {
     background: linear-gradient(95deg, rgba(252, 169, 169, .6) 0, #fff);
     border: 1px solid #fff;
+    border-right-color: rgba(252, 169, 169, 0.6);
     height: 100%;
     width: 0%;
     border-radius: .31rem;
