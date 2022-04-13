@@ -89,3 +89,5 @@ nextBtn.addEventListener('click', nextSong)
 
 audio.addEventListener('timeupdate', updateProgress)
 progressContainer.addEventListener('click', setProgess)
+
+audio.addEventListener('ended', nextSong)
